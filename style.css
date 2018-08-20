@@ -8,12 +8,37 @@ body {
     background: #777;
     width: 960px;
     font-size: 18px;
+    text-align: center;
+    vertical-align: middle;
+    border: none;
+    padding: 0;
+    margin: 10px;
+}
+
+.container {
+    box-sizing: border-box;
+/*    width: 495px; */
+    border: solid coral; 
+    padding: 0px 0px 0px 0px;
+    margin: auto;
+    overflow: hidden;
+    clear: both;
+    /* REMOVE! Formatting in order to see what I'm doing */
+        background-color: #fff;
 }
 
 header {
+    box-sizing: border-box;
     background: #ebebeb;
-}
+    border: solid blue;
+ /*   margin: 10px; */
 
+    height: 60px;
+    width: 100%;
+}
+td {
+     text-align: center;
+ }
 nav {
     background: #ebebeb;
 }
