@@ -76,6 +76,7 @@ nav {
 }
 
 section {
+    float: left;
     box-sizing: border-box;
     background: #ebebeb;
     border: solid red 1px;
