@@ -12,51 +12,7 @@ body {
     vertical-align: middle;
     border: none;
     padding: 0;
-    margin: 10px;
-}
-
-.container {
-    box-sizing: border-box;
-/*    width: 495px; */
-    border: solid coral; 
-    padding: 0px 0px 0px 0px;
     margin: auto;
-    overflow: hidden;
-    clear: both;
-    /* REMOVE! Formatting in order to see what I'm doing */
-        background-color: #fff;
-}
-
-header {
-    box-sizing: border-box;
-    background: #ebebeb;
-    border: solid blue;
- /*   margin: 10px; */
-
-    height: 60px;
-    width: 100%;
-}
-td {
-     text-align: center;
- }
-nav {
-    background: #ebebeb;
-}
-
-section {
-    background: #ebebeb;
-}
-
-aside {
-    background: #ebebeb;
-}
-
-footer {
-    background: #ebebeb;
-}
-article {
-    color: #ebebeb;
-    background: #777;
 }
 
 h1 {
@@ -68,3 +24,84 @@ p {
     color: #777;
     background: #ebebeb;
 }
+
+.container {
+    box-sizing: border-box;
+/*    width: 495px; */
+    border: solid coral; 
+    padding: 0px 0px 0px 0px;
+    margin: auto;
+    margin: 10px 0 10px 0;
+    overflow: hidden;
+    clear: both;
+    /* REMOVE! Formatting in order to see what I'm doing */
+        background-color: #fff;
+}
+
+header {
+    box-sizing: border-box;
+    background: #ebebeb;
+    border: solid blue 1px;
+    margin: 0px; 
+    padding: 0px;
+    height: 60px;
+    width: 100%;
+}
+
+table {
+    border-collapse: collapse; /* collapses all border into the TD */
+    border: none;
+}
+
+tr {
+    border: none;
+}
+
+td {
+    border: solid green 1px; 
+    height: 56px;
+    width: 954px;
+    text-align: center;
+    vertical-align: middle;
+ }
+
+nav {
+    box-sizing: border-box;
+    background: #ebebeb;
+    border: solid blue 1px;
+    margin: 0px; 
+    padding: 0px;
+    height: 60px;
+    width: 100%;
+}
+
+section {
+    box-sizing: border-box;
+    background: #ebebeb;
+    border: solid red 1px;
+    margin: 0px; 
+    padding: 0px;
+    height: 180px;
+    width: 100%;
+}
+
+aside {
+    box-sizing: border-box;
+    background: #ebebeb;
+}
+
+footer {
+    box-sizing: border-box;
+    background: #ebebeb;
+    border: solid blue 1px;
+    margin: 0px; 
+    padding: 0px;
+    height: 60px;
+    width: 100%;
+}
+article {
+    box-sizing: border-box;
+    color: #ebebeb;
+    background: #777;
+}
+
