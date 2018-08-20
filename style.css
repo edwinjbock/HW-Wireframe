@@ -107,9 +107,18 @@ article {
 
 aside {
     box-sizing: border-box;
+    float: right;
     background: #ebebeb;
+    border: yellow solid 1px;
+    margin: auto;
+    padding: 0px;
+    height: 180px;
+    width: 440px;
 }
 
+aside th {
+    height: 65px;
+}
 footer {
     box-sizing: border-box;
     background: #ebebeb;
