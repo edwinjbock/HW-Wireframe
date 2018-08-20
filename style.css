@@ -34,8 +34,16 @@ p {
     margin: 10px 0 10px 0;
     overflow: hidden;
     clear: both;
-    /* REMOVE! Formatting in order to see what I'm doing */
-        background-color: #fff;
+}
+
+.container2 {
+    box-sizing: border-box;
+    border: solid coral; 
+    padding: 0px 0px 0px 0px;
+    margin: auto;
+    margin: 20px 0 20px 0;
+    overflow: hidden;
+    clear: both;
 }
 
 header {
@@ -83,7 +91,18 @@ section {
     margin: 0px; 
     padding: 0px;
     height: 180px;
-    width: 100%;
+    width: 495px;
+}
+
+article {
+    box-sizing: border-box;
+    color: #ebebeb;
+    background: #777;
+    border: solid black 1px;
+    margin: auto;
+    padding: 0px;
+    height: 115px;
+    width: 98%;
 }
 
 aside {
@@ -100,9 +119,5 @@ footer {
     height: 60px;
     width: 100%;
 }
-article {
-    box-sizing: border-box;
-    color: #ebebeb;
-    background: #777;
-}
+
 
